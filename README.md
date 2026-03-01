@@ -1,4 +1,4 @@
-# $(basename $project | tr '-' ' ' | title)
+# AWS Data Lakehouse Medallion Architecture
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -32,7 +32,7 @@ Production-ready data engineering pipeline built with AWS CDK, featuring compreh
 ## 📂 Project Structure
 
 ```
-$(basename $project)/
+aws-data-lakehouse-medallion-architecture/
 ├── app.py                    # CDK App entry point
 ├── cdk.json                  # CDK configuration
 ├── requirements.txt          # Python dependencies
@@ -62,8 +62,8 @@ $(basename $project)/
 
 ```bash
 # Clone the repository
-git clone https://github.com/AnuAlli/$(basename $project).git
-cd $(basename $project)
+git clone https://github.com/AnuAlli/aws-data-lakehouse-medallion-architecture.git
+cd aws-data-lakehouse-medallion-architecture
 
 # Create virtual environment
 python -m venv venv
